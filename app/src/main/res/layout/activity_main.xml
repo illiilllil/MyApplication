@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="178dp"
+        android:layout_height="51dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="15dp"
+        android:text="hello world!"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="125dp"
+        android:layout_height="29dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="22dp"
+        />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart"
+        android:layout_width="346dp"
+        android:layout_height="388dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="359dp"
+        android:layout_height="454dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684">
+
+    </FrameLayout>
+
+
+</LinearLayout>
